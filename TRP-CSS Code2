@@ -1,0 +1,52 @@
+/*trp-language-switche-start*/
+.trp-language-switcher {
+	width:40px !important;
+}
+
+.trp-ls-shortcode-current-language, .trp-ls-shortcode-language a {
+	background-image: none !important;
+	padding: 0 !important;
+	width: 50px !important;
+	height: 48px !important;
+	display: flex !important;
+	border-radius: 50% !important;
+	justify-content: center !important;
+	align-items: center !important;
+	background-color: #9A72B2 !important;
+  }
+
+.trp-ls-shortcode-language {
+	width:unset !important;
+	padding:0 !important;
+	border: 0 !important;
+	max-height:unset !important;
+	background-color:transparent !important;
+	font-family: Geologica !important;
+	font-weight: 700 !important;
+	transition:all .85s linear !important;
+	z-index:6 !important;
+}
+
+.trp-language-switcher > div > a {
+	color: #fff !important;
+	font-family: Geologica !important;
+	font-weight: 700 !important;
+	font-size: 15px !important;
+	transition:all .85s linear !important; 
+
+}
+
+.trp-ls-shortcode-language a {
+	margin-bottom:7px !important;
+	font-family:Geologica !important;
+	font-weight:700 !important;
+	opacity: 0.85 !important;
+	transition:all .85s linear !important;
+
+}
+
+.trp-ls-shortcode-language a:hover {
+	opacity: 1 !important;
+
+} 
+/*trp-language-switche end*/
